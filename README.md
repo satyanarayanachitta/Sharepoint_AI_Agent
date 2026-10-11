@@ -28,6 +28,11 @@ Console Output: The script prints the analysis results to the console.
 2. Store your credentials in environment variables for security.
 3. Run the script to analyze documents in your SharePoint folder.
 
+## React version
+A React conversion is available in [App.jsx](./App.jsx). It keeps the same workflow: fetch files from a SharePoint folder, send document text to OpenAI, and display the AI-generated analysis in the UI.
+
+This React version should be run inside a React app and, for security, the SharePoint credentials and OpenAI API key should be handled on a backend or through a secure environment layer instead of hardcoding them in the browser.
+
 ## Installation
 1. Clone the repository:
    ```bash
